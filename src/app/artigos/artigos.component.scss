@@ -1,0 +1,28 @@
+.artigos {
+  display: flex;
+  gap: 2vh;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  max-width: 47vh;
+  background-color: white;
+  text-align: justify;
+}
+
+mat-card-title,
+mat-card-subtitle {
+  color: #4e828e;
+}
+
+@media (max-width: 768px) {
+  .artigos {
+    display: grid;
+  }
+
+  .card img {
+    max-width: 47vh;
+    max-height: 35vh;
+  }
+}

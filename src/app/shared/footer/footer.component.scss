@@ -1,0 +1,16 @@
+mat-toolbar {
+  background: #d09a9f;
+  position: fixed;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  mat-toolbar {
+    position: inherit;
+  }
+}

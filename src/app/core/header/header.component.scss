@@ -1,0 +1,25 @@
+mat-toolbar.mat-primary {
+  background: #d09a9f;
+  color: #ebebeb;
+}
+
+a.mat-button:hover,
+button.mat-button:hover,
+.active {
+  background-color: #916b6f;
+  color: #ebebeb;
+}
+
+mat-icon {
+  width: 30px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+a.mat-button {
+  font-size: 18px;
+}
